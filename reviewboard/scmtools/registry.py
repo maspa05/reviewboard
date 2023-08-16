@@ -172,6 +172,7 @@ class SCMToolRegistry(EntryPointRegistry):
                 ('git', 'GitTool'),
                 ('hg', 'HgTool'),
                 ('perforce', 'PerforceTool'),
+                ('piccolo', 'PiccoloTool'),
                 ('plastic', 'PlasticTool'),
                 ('svn', 'SVNTool'),
             ):
